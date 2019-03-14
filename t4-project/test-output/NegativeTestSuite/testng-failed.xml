@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NegativeTestSuite]">
+  <test thread-count="5" name="NegativeEmailTestOP(failed)">
+    <parameter name="expectedErrorMessage" value="Invalid email or password"/>
+    <parameter name="password" value="1qa@WS#ED"/>
+    <parameter name="browser" value="opera"/>
+    <parameter name="email" value="incorrectEmail@ie.ie"/>
+    <classes>
+      <class name="com.edcast.portnov.NegativeTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="negativeTest"/>
+        </methods>
+      </class> <!-- com.edcast.portnov.NegativeTests -->
+    </classes>
+  </test> <!-- NegativeEmailTestOP(failed) -->
+</suite> <!-- Failed suite [NegativeTestSuite] -->

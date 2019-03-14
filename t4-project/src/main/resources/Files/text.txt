@@ -1,0 +1,1 @@
+Credential name and url are not shown in 'Credentials' area on a skill passport

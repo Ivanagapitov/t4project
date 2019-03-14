@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [PositiveResetPasswordTestsuite]" parallel="tests">
+  <test thread-count="2" name="PositiveResetPasswordTestFF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.t4project.loginpagetests.ResetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="negativeResetPasswordTest"/>
+        </methods>
+      </class> <!-- com.t4project.loginpagetests.ResetPasswordTest -->
+    </classes>
+  </test> <!-- PositiveResetPasswordTestFF(failed) -->
+  <test thread-count="2" name="PositiveResetPasswordTestCH(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.t4project.loginpagetests.ResetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="negativeResetPasswordTest"/>
+        </methods>
+      </class> <!-- com.t4project.loginpagetests.ResetPasswordTest -->
+    </classes>
+  </test> <!-- PositiveResetPasswordTestCH(failed) -->
+</suite> <!-- Failed suite [PositiveResetPasswordTestsuite] -->

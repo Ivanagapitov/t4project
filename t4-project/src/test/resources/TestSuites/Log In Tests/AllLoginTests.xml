@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveResetPasswordTestsuite" verbose="3" parallel="tests" thread-count="2">
+	<test name="PositiveResetPasswordTestCH">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.t4project.loginpagetests.ResetPasswordTest">
+			</class>
+		</classes>
+	</test>
+	<test name="PositiveTestCH">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.t4project.loginpagetests.PositiveLoginTests">
+			</class>
+		</classes>
+	</test>
+	<test name="NegativeLogInTestCH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.t4project.loginpagetests.NegativeLoginTests">
+			</class>
+		</classes>
+	</test>
+</suite>

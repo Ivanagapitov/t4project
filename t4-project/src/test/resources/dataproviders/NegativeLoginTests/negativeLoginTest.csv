@@ -1,0 +1,6 @@
+no,email,password,expectedMessage,description
+1,incorrectEmail@email.com,5Mk&ml1C*s,Login Invalid,incorrect email + correct password
+2,ivanagapitov@gmail.com,incorrectPassword,Login Invalid,correct email + incorrect password
+3,incorrectEmail@email.com,incorrectPassword,Login Invalid,incorrect email + incorrect password
+4,ivanagapitov@gmail.com,,Login Invalid,empty password
+5,,5Mk&ml1C*s,Login Invalid,empty email

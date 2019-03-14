@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [SmartCardTests]" parallel="tests">
+  <test thread-count="4" name="PositiveCreationByUploadFF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.edcast.portnov.smartcardtests.SmartCardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createSmartCardUpload"/>
+        </methods>
+      </class> <!-- com.edcast.portnov.smartcardtests.SmartCardTest -->
+    </classes>
+  </test> <!-- PositiveCreationByUploadFF(failed) -->
+</suite> <!-- Failed suite [SmartCardTests] -->

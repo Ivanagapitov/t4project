@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveLoginTestsuite" verbose="1" parallel="tests" thread-count="2">
+	<!-- <test name="PositiveTestFF">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.t4project.loginpagetests.PositiveLoginTests">
+			</class>
+		</classes>
+	</test> -->
+	<test name="PositiveTestCH">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.t4project.loginpagetests.PositiveLoginTests">
+			</class>
+		</classes>
+	</test>
+	<!--  <test name="PositiveTestOP">
+	<parameter name="browser" value="opera"></parameter>
+		<classes>
+			<class name="com.edcast.portnov.PositiveLoginTests">
+			</class>
+		</classes>
+	</test>-->
+</suite>

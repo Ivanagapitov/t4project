@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="NegativeLoginTest" parallel="tests" thread-count="2" verbose="1">
+	 
+	<test name="NegativeLogInTestFF">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.t4project.loginpagetests.NegativeLoginTests">
+			</class>
+		</classes>
+	</test> 
+	 
+	 <test name="NegativeLogInTestCH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.t4project.loginpagetests.NegativeLoginTests">
+			</class>
+		</classes>
+	</test>
+	 
+</suite>
