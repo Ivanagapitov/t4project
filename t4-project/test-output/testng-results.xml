@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="PositiveLoginTestsuite" duration-ms="10474" started-at="2019-03-14T04:57:01Z" finished-at="2019-03-14T04:57:11Z">
+  <suite name="PositiveResetPasswordTestsuite" duration-ms="13510" started-at="2019-03-19T04:33:59Z" finished-at="2019-03-19T04:34:13Z">
     <groups>
     </groups>
-    <test name="PositiveTestCH" duration-ms="10474" started-at="2019-03-14T04:57:01Z" finished-at="2019-03-14T04:57:11Z">
-      <class name="com.t4project.loginpagetests.PositiveLoginTests">
-        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.t4project.loginpagetests.PositiveLoginTests@5e5792a0]" name="setUp" is-config="true" duration-ms="3654" started-at="2019-03-14T04:57:01Z" finished-at="2019-03-14T04:57:04Z">
+    <test name="PositiveResetPasswordTestCH" duration-ms="12879" started-at="2019-03-19T04:33:59Z" finished-at="2019-03-19T04:34:12Z">
+      <class name="com.t4project.loginpagetests.ResetPasswordTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@754ba872]" name="setUp" is-config="true" duration-ms="2979" started-at="2019-03-19T04:33:59Z" finished-at="2019-03-19T04:34:02Z">
           <params>
             <param index="0">
               <value>
@@ -16,22 +16,98 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@4bec1f0c]]>
+                <![CDATA[org.testng.TestRunner@192b07fd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.t4project.loginpagetests.PositiveLoginTests@5e5792a0]" name="loginTest" duration-ms="6201" started-at="2019-03-14T04:57:04Z" finished-at="2019-03-14T04:57:11Z">
+        <test-method status="PASS" signature="negativeResetPasswordTest()[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@754ba872]" name="negativeResetPasswordTest" duration-ms="3877" started-at="2019-03-19T04:34:02Z" finished-at="2019-03-19T04:34:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.t4project.loginpagetests.PositiveLoginTests@5e5792a0]" name="tearDown" is-config="true" duration-ms="593" started-at="2019-03-14T04:57:11Z" finished-at="2019-03-14T04:57:11Z">
+        </test-method> <!-- negativeResetPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@754ba872]" name="tearDown" is-config="true" duration-ms="609" started-at="2019-03-19T04:34:06Z" finished-at="2019-03-19T04:34:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.t4project.loginpagetests.PositiveLoginTests -->
-    </test> <!-- PositiveTestCH -->
-  </suite> <!-- PositiveLoginTestsuite -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@754ba872]" name="setUp" is-config="true" duration-ms="2233" started-at="2019-03-19T04:34:07Z" finished-at="2019-03-19T04:34:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@192b07fd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveResetPasswordTest()[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@754ba872]" name="positiveResetPasswordTest" duration-ms="2543" started-at="2019-03-19T04:34:09Z" finished-at="2019-03-19T04:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveResetPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@754ba872]" name="tearDown" is-config="true" duration-ms="615" started-at="2019-03-19T04:34:12Z" finished-at="2019-03-19T04:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.t4project.loginpagetests.ResetPasswordTest -->
+    </test> <!-- PositiveResetPasswordTestCH -->
+    <test name="PositiveResetPasswordTestFF" duration-ms="13510" started-at="2019-03-19T04:33:59Z" finished-at="2019-03-19T04:34:13Z">
+      <class name="com.t4project.loginpagetests.ResetPasswordTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@5e5792a0]" name="setUp" is-config="true" duration-ms="3593" started-at="2019-03-19T04:33:59Z" finished-at="2019-03-19T04:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeResetPasswordTest()[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@5e5792a0]" name="negativeResetPasswordTest" duration-ms="3345" started-at="2019-03-19T04:34:03Z" finished-at="2019-03-19T04:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeResetPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="692" started-at="2019-03-19T04:34:06Z" finished-at="2019-03-19T04:34:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@5e5792a0]" name="setUp" is-config="true" duration-ms="2753" started-at="2019-03-19T04:34:07Z" finished-at="2019-03-19T04:34:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@64bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveResetPasswordTest()[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@5e5792a0]" name="positiveResetPasswordTest" duration-ms="2515" started-at="2019-03-19T04:34:10Z" finished-at="2019-03-19T04:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveResetPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.t4project.loginpagetests.ResetPasswordTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="593" started-at="2019-03-19T04:34:12Z" finished-at="2019-03-19T04:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.t4project.loginpagetests.ResetPasswordTest -->
+    </test> <!-- PositiveResetPasswordTestFF -->
+  </suite> <!-- PositiveResetPasswordTestsuite -->
 </testng-results>

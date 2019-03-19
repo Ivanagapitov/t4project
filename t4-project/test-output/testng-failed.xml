@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [PositiveLoginTestsuite]" parallel="tests">
-  <test thread-count="2" name="PositiveTestCH(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [NegativeLoginTest]" parallel="tests">
+  <test thread-count="2" name="NegativeLogInTestFF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.t4project.loginpagetests.PositiveLoginTests">
+      <class name="com.t4project.loginpagetests.NegativeLoginTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="loginTest"/>
+          <include name="negativeLoginTest"/>
         </methods>
-      </class> <!-- com.t4project.loginpagetests.PositiveLoginTests -->
+      </class> <!-- com.t4project.loginpagetests.NegativeLoginTests -->
     </classes>
-  </test> <!-- PositiveTestCH(failed) -->
-</suite> <!-- Failed suite [PositiveLoginTestsuite] -->
+  </test> <!-- NegativeLogInTestFF(failed) -->
+</suite> <!-- Failed suite [NegativeLoginTest] -->
